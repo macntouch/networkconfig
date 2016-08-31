@@ -18,4 +18,9 @@
 	<dependencies>
 		<owncloud min-version="9.1" max-version="9.2" />
 	</dependencies>
+
+	<settings>
+		<admin-section>OCA\NetworkConfig\Settings\AdminSection</admin-section>
+		<admin>OCA\NetworkConfig\Settings\Admin</admin>
+	</settings>
 </info>
