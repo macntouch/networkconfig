@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info>
+	<id>networkconfig</id>
+	<name>Network configuration</name>
+	<description>A Nextcloud app which allows to configure the network of your box</description>
+	<licence>AGPL</licence>
+	<author>Ivan Sein, Joas Schilling</author>
+	<version>1.0</version>
+	<namespace>NetworkConfig</namespace>
+
+	<category>integration</category>
+	<category>tools</category>
+
+	<website>https://github.com/nextcloud/networkconfig</website>
+	<bugs>https://github.com/nextcloud/networkconfig/issues</bugs>
+	<repository type="git">https://github.com/nextcloud/networkconfig.git</repository>
+
+	<dependencies>
+		<owncloud min-version="9.1" max-version="9.2" />
+	</dependencies>
+</info>
